@@ -1,0 +1,80 @@
+// Online Rust compiler to run Rust program online
+// Print "Try programiz.pro" message
+
+// fn main() {
+//     let x=5;
+//     let y=&x;
+//     let res=5/3;
+//     println!("{}",y);
+//     println!("{}",res);
+// }
+// fn main() {
+//     let decimal: f32 = 64.31;
+//     let integer = decimal as u16;
+//     println!("decimal = {}", decimal);
+//     println!("integer = {}", integer);
+// }
+// fn main()
+// {
+//     let exp1=(3+5)*9/7&8;
+//     let exp2=2+3/5^7*8/9;
+//     println!("res = {}",exp1);
+//     println!("res = {}",exp2);
+// }
+// fn main() {
+//     let num = -5;
+
+//     if num > 0 {
+//         println!("The number {} is positive.", num);
+//     } else if num < 0 {
+//         println!("The number {} is negative.", num);
+//     } else {
+//         println!("The number is zero.");
+//     }
+// }
+// fn main() {
+//     let num = 4;
+
+//     if num % 2 == 0 {
+//         println!("The number {} is even.", num);
+//     } else {
+//         println!("The number {} is odd.", num);
+//     }
+// }
+// fn main() {
+//     let num1 = 12.0;
+//     let operation = "+";
+//     let num2 = 5.0;
+
+//     let result = match operation {
+//         "+" => num1 + num2,
+//         "-" => num1 - num2,
+//         "*" => num1 * num2,
+//         "/" => {
+//             if num2 != 0.0 {
+//                 num1 / num2
+//             } else {
+//                 println!("Error: Division by zero!");
+//                 return;
+//             }
+//         }
+//         _ => {
+//             println!("Error: Invalid operation!");
+//             return;
+//         }
+//     };
+
+//     println!("The result of {} {} {} is {}", num1, operation, num2, result);
+// }
+// fn main() {
+//     let some_value = Some(10);
+
+//     if let Some(x) = some_value {
+//         println!("The value is: {}", x);
+//     } else {
+//         println!("No value found");
+//     }
+// }
+
+
+

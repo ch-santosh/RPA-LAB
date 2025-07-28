@@ -1,0 +1,92 @@
+// fn factorial(n: u32) -> u32 {
+//     if n == 0 { 1 } else { n * factorial(n - 1) }
+// }
+
+// fn main() {
+//     let num = 5;
+//     println!("Factorial of {} is {}", num, factorial(num));
+// }
+
+// fn test_divisibility_by_3_4(num: i32) -> i32 {
+//     if num % 3 == 0 && num % 4 == 0 {
+//         0
+//     } else if num % 3 == 0 {
+//         1
+//     } else if num % 4 == 0 {
+//         2
+//     } else {
+//         -1
+//     }
+// }
+
+// fn main() {
+//     let num = 12;
+//     println!("{}", test_divisibility_by_3_4(num));
+// }
+
+// fn pass_by_value(x: i32) {
+//     println!("Value inside function: {}", x);
+// }
+
+// fn pass_by_reference(x: &i32) {
+//     println!("Reference inside function: {}", x);
+// }
+
+// fn main() {
+//     let a = 5;
+//     pass_by_value(a);
+//     pass_by_reference(&a);
+// }
+
+// fn calculate_area_perimeter(x: u32, y: u32) -> (u32, u32) {
+//     let area = x * y;
+//     let perimeter = 2 * (x + y);
+//     (area, perimeter)
+// }
+
+// fn main() {
+//     let (area, perimeter) = calculate_area_perimeter(5, 10);
+//     println!("Area: {}, Perimeter: {}", area, perimeter);
+// }
+
+// fn arr_square(arr: &[i32]) -> Vec<i32> {
+//     arr.iter().map(|&x| x * x).collect()
+// }
+
+// fn main() {
+//     let arr = [1, 2, 3, 4, 5];
+//     let squares = arr_square(&arr);
+//     println!("{:?}", squares);
+// }
+
+// fn fibonacci(n: u32) -> u32 {
+//     if n == 0 { 0 }
+//     else if n == 1 { 1 }
+//     else { fibonacci(n - 1) + fibonacci(n - 2) }
+// }
+
+// fn main() {
+//     let n = 7;
+//     println!("Fibonacci term at position {} is {}", n, fibonacci(n));
+// }
+
+// fn main() {
+//     let my_string = String::from("Hello, Rust!");
+//     println!("{}", my_string);
+// }
+
+// fn main() {
+//     let sentence = "Hello Rust World";
+//     for word in sentence.split_whitespace() {
+//         println!("{}", word);
+//     }
+// }
+
+// fn main() {
+//     let mut str1 = String::from("Hello");
+//     let str2 = " Rust!";
+//     str1.push_str(str2);
+//     println!("{}", str1);
+// }
+
+

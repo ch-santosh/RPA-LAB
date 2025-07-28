@@ -74,6 +74,44 @@
 //     } else {
 //         println!("No value found");
 //     }
+
+// Online Rust compiler to run Rust program online
+// Print "Try programiz.pro" message
+
+// fn main() {
+//     for i in 1..=10 {
+//         println!("{}", i);
+//     }
+// }
+
+// fn main() {
+//     let num = 5;
+//     for i in 1..=10 {
+//         println!("{} x {} = {}", num, i, num * i);
+//     }
+// }
+
+// fn main() {
+//     let mut count = 0;
+//     for i in 1..=10 {
+//         count += 1;
+//         if i == 5 {
+//             break;
+//         }
+//     }
+//     println!("Loop executed {} times", count);
+// }
+
+// fn main() {
+//     for i in 1..=5 {
+//         for _ in 0..i {
+//             print!("&");
+//         }
+//         println!();
+//     }
+// }
+
+
 // }
 
 
